@@ -21,6 +21,7 @@ public class firstSeleniumProgram extends Parent {
 //        driver.manage().window().maximize();
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("Boston");
+        System.out.println("Browser launched");
         Thread.sleep(3000);
         driver.close();
 
